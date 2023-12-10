@@ -10,7 +10,7 @@ def create_repo(url):
     """create repo POST request"""
 
     # Use actual token!!!
-    header_content = {'Authorization': 'token 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'}
+    header_content = {'Authorization': 'token addYourTokenHere'}
     payload = {
         'name': 'repo-created-with-api',
         'private': True,
