@@ -6,7 +6,7 @@ def update_repo(url_):
     """PATCH function"""
     # adding code here
   
-    header_content = {'Authorization': 'token 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'}
+    header_content = {'Authorization': 'token addYourTokenHere'}
 
     payload = {'description': 'I know Python Requests!'}
 
