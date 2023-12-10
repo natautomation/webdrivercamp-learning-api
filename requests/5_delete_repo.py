@@ -6,7 +6,7 @@ def delete_repo(url_):
     """DELETE function"""
     # adding code here
 
-    header_content = {'Authorization': 'token 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'}
+    header_content = {'Authorization': 'token addYourTokenHere'}
 
     response = requests.delete(url_, headers=header_content)
 
