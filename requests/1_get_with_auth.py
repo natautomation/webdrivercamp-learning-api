@@ -8,7 +8,7 @@ def get_with_auth(url_):
 
     #check token/delete after  graded assignment !!!!
  
-    header_content = {'Authorization': 'token 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'}
+    header_content = {'Authorization': 'token addYourTokenHere'}
     response = requests.get(url_, headers=header_content)
     print(f'Response status code: {response.status_code}')
 
